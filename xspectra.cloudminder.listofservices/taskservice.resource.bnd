@@ -1,0 +1,2 @@
+Private-Package: xspectra.getlist.resource
+Bundle-Activator: xspectra.getlist.resource.Activator

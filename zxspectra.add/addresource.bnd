@@ -1,0 +1,2 @@
+Bundle-Activator: zxspectra.add.resource.Activator
+Private-Package: zxspectra.add.resource

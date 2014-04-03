@@ -1,0 +1,2 @@
+Bundle-Activator: xspectra.getlist.serviceimpl.Activator
+Private-Package: xspectra.getlist.serviceimpl
