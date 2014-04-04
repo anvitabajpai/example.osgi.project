@@ -37,7 +37,6 @@
 	org.mongodb.mongo-java-driver;version='[2.10.1,2.10.2)',\
 	osgi.cmpn;version='[4.3.1,4.3.2)',\
 	osgi.enterprise;version='[4.2.0,4.2.1)',\
-	xmonkey.test.api;version=latest,\
 	zmonkey.api;version=latest,\
 	zmonkey.mongo;version=latest,\
 	zmonkey.rest;version=latest,\
@@ -47,12 +46,6 @@
 	xspectra.cloudminder.listofservices.taskservice;version=latest,\
 	xspectra.cloudminder.listofservices.taskservice.resource;version=latest,\
 	xspectra.cloudminder.listofservices.taskserviceimpl;version=latest
-    webshop.orders.mongo;version=latest,\
-	webshop.orders.rest;version=latest,\
-	webshop.orders.api;version=latest,\
-	zmonkey.mongo;version=latest,\
-	zmonkey.rest;version=latest,\
-	zmonkey.api;version=latest
 
 -runrequires: osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
@@ -73,5 +66,3 @@
 	osgi.identity;filter:='(osgi.identity=zxspectra.add.addResource)',\
 	osgi.identity;filter:='(osgi.identity=xspectra.cloudminder.listofservices.taskservice.resource)',\
 	osgi.identity;filter:='(osgi.identity=xspectra.cloudminder.listofservices.taskserviceimpl)'
-	osgi.identity;filter:='(osgi.identity=webshop.orders.mongo)',\
-	osgi.identity;filter:='(osgi.identity=webshop.orders.rest)'
